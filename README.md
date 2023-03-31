@@ -1,6 +1,6 @@
 # Landing Page Cyber Café Web Coffee 3.0 ☕🖥
 
-<p>Repositório criado para desenvolver uma landing page de uma empresa fictícia chamado "Cyber Café Web Coffee 3.0".</p>
+<p align="center">Repositório criado para desenvolver uma landing page de uma empresa fictícia chamado "Cyber Café Web Coffee 3.0".</p>
 <br>
 <p align="center"><b><i>🖱 Website do Cyber Café Web Coffee 3.0:</i></b></p>
 <br>
