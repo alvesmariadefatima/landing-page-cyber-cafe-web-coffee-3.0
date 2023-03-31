@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <title>Cyber Café Web Coffee 3.0</title>
+        <link rel="shortcut icon" href="favicon/favicon-site.png" type="image/x-icon">
+        <script>
+            function enviarDados() {
+
+                var nome = document.getElementById("nome").value;
+                var email = document.getElementById("email").value;
+
+                if(nome != "" && email != ""){
+                    alert("Seus dados foram enviados com sucesso!!!")
+                } else {
+                    alert("Por favor, preencha os campos.")
+                }
+            }
+        </script>
+        <style>
+            h3 {
+                color: maroon;
+                font-size:50;
+            }
+
+            body {
+                background-color: rgb(238,174,202);;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .menu {
+                text-align: center;
+            }
+
+            a {
+                text-decoration-line: none;
+                color: maroon;
+                padding: 10;
+                font-size: 30;
+            }
+
+            section li {
+                background-color: bisque;
+                list-style: none;
+                border: 2px solid maroon;
+            }
+
+            section ul {
+                background-color: antiquewhite;
+                border: 2px solid maroon;
+            }
+
+            p {
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            h2 {
+                color:maroon;
+                font-style: italic;
+            }
+
+            p {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 30;
+                color:maroon;
+                font-style: bold;
+            }
+
+            .homepage {
+                background-color: antiquewhite;
+            }
+
+            div {
+                width: auto;
+                height: auto;
+                text-align:center;
+            }
+
+        </style>
+        <body>
+            <section>
+                <div class="logo-cafe">
+                <p align="center"><img src="img/Logotipo Cyber Café Web Coffee 3.0.png" alt="xícara de café"></p>
+                </div>
+                <h3 align="center">Cyber Café Web Coffee 3.0</h3>
+            <br>
+                <div class="menu">
+                <nav>
+                <li>
+                    <a href="#pagina-inicial">Página Inicial</a>
+                    <a href="#precos">Preços</a>
+                    <a href="#servicos-disponiveis">Serviços Disponíveis</a>
+                    <a href="#sobre-a-empresa">Sobre a empresa</a>
+                    <a href="#fale-conosco">Fale Conosco</a>
+                </li>
+                <br>
+                    <ul class="homepage">
+                        <h2 id="pagina-inicial">Página Inicial</h2>
+                        <br>
+                        <p>Olá, seja bem-vindo(a) ao Cyber Café Web Coffee 3.0!!!</p>
+                        <p>Aqui temos Wi-Fi gratuito para os clientes na sala principal do estabelecimento, e na Lan House pagamos uma taxa específica (dependendo da quantidade de horas que o cliente acessar em nossos computadores).</p>
+                        <p>Confira nossos serviços e preços disponíveis!!!</p>
+                    </ul>
+                    <br>
+                    <ul>
+                    <h2 id="precos" align="center">Preços</h2>
+                    <br>
+                    <p>Confira os preços de nossos produtos e também da nossa Lan House do Cyber Café Web Coffee 3.0: </p>
+                    </ul>
+                    <ul>
+                    <h2 align="center">Bebidas</h2>
+                    <br>
+                    <img src="img/foto-ilustrativa-sucos-diversos-cardapio-removebg-preview.png" alt="Foto sucos diversos">
+                    <p>Capuccino - R$ 2.50</p>
+                    <p>Café Expresso - R$ 2.00</p>
+                    <p>Chocolate Quente - R$ 3.00</p>
+                    <p>Sucos da fruta (Acerola, Manga, Morango e Maracujá) - R$ 0.50</p>
+                    </ul>
+                    <br>
+                    <ul>
+                    <h2 align="center">Comidas</h2>
+                    <br>
+                    <img src="img/comidas-secao-cardapio-removebg-preview.png" alt="Desenho de doces e salgados (Coxinha e Brigadeiro)">
+                    <p>Coxinha - R$ 2.50</p>
+                    <p>Cupcake  R$ 1.50</p>
+                    <p>Torta de Frango (cada fatia) - R$ 2.00</p>
+                    <p>Pudim (cada fatia) - R$ 1.00</p>
+                    <p>Brigadeiro - R$ 0.50</p>
+                    <p>Beijinho - R$ 0.50</p>
+                    <p>Cocada de coco - R$ 1.00</p>
+                    </ul>
+                    <br>
+                    <ul>
+                        <h2 id="servicos-disponiveis">Serviços Disponíveis</h2>
+                        <br>
+                        <p>Temos Wi-Fi Gratuito na sala principal do Cyber Café</p>
+                        <p>Acesso a Lan House por 1 hora - R$ 2.50</p>
+                        <p>Acesso a Lan House por 2 horas - R$ 3.50</p>
+                        <p>Acesso a Lan House por 3 horas - R$ 4.50</p>
+                        <p>Acesso a Lan House por mais de 3 horas - R$ 5.50</p>
+                    </ul>
+                    <br>
+                    <ul>
+                        <h2 id="sobre-a-empresa" align="center">Sobre a Empresa</h2>
+                        <br>
+                        <p>A Cyber Café Web Coffee 3.0 nasceu com o propósito em oferecer serviços gratuitos e pagos para todos os nossos clientes.</p>
+                        <p>Nossa missão é trazer mais comodidade e conforto para todos os visitantes!!!</p>
+                    </ul>
+                    <br>
+                    <ul>
+                        <h2 id="fale-conosco">Fale Conosco</h2>
+                        <br>
+                        <p>Gostou de nossos produtos e serviços??? Entre em contato conosco para obter mais novidades em nossa Newsletter: </p>
+                        <form>
+                            <label for="nome">Nome:</label>
+                            <input id="nome" type="text">
+
+                            <label for="email">Email:</label>
+                            <input id="email" type="email">
+                            <br>
+                            <br>
+                            <button onclick= enviarDados()>Enviar</button>
+                        </form>
+                    </ul>
+                </section>
+                </nav>
+                </div>
+        </body>
+    </head>
+</html>
